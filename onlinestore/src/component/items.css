@@ -1,0 +1,9 @@
+.container-form{
+    margin: 2px solid black;
+    background-color: bisque;
+    margin: 150px;
+    border-radius: 22px;
+}
+.container-form img, .container-form h3{
+    padding: 25px;
+}

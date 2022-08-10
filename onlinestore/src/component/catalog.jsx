@@ -18,9 +18,9 @@ const Catalog = () => {
         }
     }
     setCategories(uniques);
-    };
+     };
 
-    
+     
     useEffect(() => {
         loadData();
     },[]);

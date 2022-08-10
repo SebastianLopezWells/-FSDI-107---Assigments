@@ -43,7 +43,7 @@ const catalog = [
 
 class DataService {
   getCatalog() {
-    //call the server
+    //call the servers
     //get the list of items and return it
 
     return catalog;

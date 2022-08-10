@@ -10,7 +10,7 @@ const QuantityPicker = (props) =>{
                 setQuantity(number);
                 props.onChange(number);
         
-    }
+      }
     const decrease = () =>{
         if(quantity >>0){
             console.log('Click decrease');

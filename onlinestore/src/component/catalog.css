@@ -5,8 +5,12 @@
 .catalog .item{
     display: inline-block;
     width: 280px;
-    height: 320px;
+    height: 390px;
     border: 1px solid #fafafa;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+
+.category{
+    margin: 25px;
 }

@@ -1,9 +1,9 @@
 import './footer.css';
 
-const Footer = () =>{
+const Footer = () => {
     return (
         <div className="footer">
-            <h2>    Footer Bar</h2>
+            <h5>Some Shop &copy; 2022</h5>
         </div>
     );
 }

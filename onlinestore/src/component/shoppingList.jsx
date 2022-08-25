@@ -8,7 +8,11 @@ const ShoppingList = () => {
 
     const Save = () => {
         console.log(text);
-        items.push(text);
+        //items.push(text);
+
+        let clone = {...items};
+        clone.push(text);
+        setItem(clone);
     };
 
     const textChange = (e) => {
